@@ -1,0 +1,118 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;;
+}
+
+/* Header Items */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 206, 241);
+    margin-top: 0px;
+}
+.nav h1{
+    font-size: 36px;
+    font-weight:bolder;
+    margin-left: 20px;
+}
+.nav a{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Home-Page-Banner */
+.home-banner{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 170px;
+}
+.home-banner h1{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* About */
+
+.about-store{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+.about-store img{
+    width: 600px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.about-store p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* contact-Us */
+.contact-Us{
+    background-color: rgb(197, 239, 246);
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    border: 2px solid rgb(212, 210, 208);
+    margin: 100px 250px;
+    border-radius: 30px;
+}
+.contact-Us p{
+    font-size: 20px;
+}
+.contact-Us input{
+    padding: 10px;
+    border-radius: 10px;
+}
+#submit{
+ background-color: rgb(195, 119, 119); 
+ color: aliceblue;
+ padding: 10px 25px;
+ font-weight: bold;
+ font-size: 15px;  
+}
+
+/* Products */
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.single-product{
+    background-color: rgb(243, 250, 251);
+    border: 2px solid gray;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px; ;
+}
+.single-product img{
+    width: 200px;
+}
+
+#h1{
+font-weight: bolder;
+color: rgb(95, 57, 24);
+ font-size: 30px;
+ text-align: center;
+}
+
+
+/* Footer */
+.footer{
+    background-color: rgb(76, 224, 224);
+    text-align: center;
+    padding: 30px;
+    
+}
+.footer a{
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 20px;
+}
